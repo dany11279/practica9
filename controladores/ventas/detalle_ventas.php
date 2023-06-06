@@ -32,7 +32,7 @@ try {
                         <tr>
                             <th>NO.</th>
                             <th>CLIENTE</th>
-                            <th>FECHA</th>
+                            <td><?= date('d/m/Y', strtotime($venta['VENTA_FECHA'])) ?></td>
                             <th>PRODUCTO</th>
                             <th>PRECIO UNITARIO</th>
                             <th>CANTIDAD</th>
